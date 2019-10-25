@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3Dcrafter</title>
+    <!-- FontAwesome script -->
+    <script src="https://kit.fontawesome.com/a661f852b0.js"></script>
+    <!-- FontFamily Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- файл ссылки css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- заголовок страницы -->
+    <header>
+        <div class="container">
+            <!-- название компании -->
+            <a id="link0" href="#" class="active">
+                3Dcrafter.ru
+            </a>
+            <!-- адрес-->
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Москва</span>
+            </div>
+            <!-- панель навигации-->
+            <nav class="listMenu">
+                <!--
+                <a id="link1" href="#">компаниа</a>
+                <a id="link2" href="#">услуги</a>
+                -->
+                <a id="link3" href="#">стоимость</a>
+            </nav>
+            <!-- иконки для мобильной версии (по умолчанию : display:none)-->
+            <div class="icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <!-- телефон -->
+            <div>
+                <span>+7 495 00-44-187</span>
+                <i class="fas fa-phone-alt"></i>
+                <img src="imgs/mail3-menu.svg" alt="mail-svg">
+            </div>
+        </div>
+    </header>
+    <!-- Статья -->
+    <article>
+        <div class="page1">
+            <!-- art-details => содержит координаты элемента и его изображение -->
+            <div class="art-details">
+                <!-- координаты статьи -->
+                <div class="coord">
+                    <h2>3D принтеры PICASO 3D</h2>
+                    <h1>Designer xpro</h1>
+                    <p>Больше не нужно выбирать между скоростью и качеством. Экономьте время
+                        и будьте уверены в результате.</p>
+                </div>
+                <!-- фото статьи -->
+                <div class="image">
+                    <img src="imgs/x-pro.png" alt="Image Product">
+                </div>
+            </div>
+            <!-- nav-order содержит навигацию между статьями, ценой и кнопкой заказа. -->
+            <div class="nav-order">
+                <!-- навигация между статьями -->
+                <div class="nav">
+                    <a id="x"><img src="imgs/x-b.svg" alt=""></a>
+                    <a id="x-pro"><img src="imgs/x-pro-b-Active.svg" alt="" class="active"></a>
+                    <a id="xl"><img src="imgs/xl-b.svg" alt=""></a>
+                    <a id="xl-pro"><img src="imgs/xl-pro-b.svg" alt=""></a>
+                </div>
+                <!-- цена и заказ -->
+                <div class="order">
+                    <div class="price"><span>299.000</span><img src="imgs/ruble.svg" alt="Rubles"></div>
+                    <button id="order1">заказать</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- страница 2 -->
+        <div class="page2" style="display: none">
+
+            <img src="imgs/3d-ico-1.png" alt="like">
+            <h1>Хочешь печатать также?</h1>
+
+            <section>
+                <div class="block">
+                    <div class="front">
+                        <img src="imgs/primer-1.jpg" alt="prime1">
+                        <p>Материал : PLA</p>
+                        <p>Толшиие слоя: 100 микрон</p>
+                    </div>
+                    <div class="back">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quisquam explicabo, sint beatae
+                            voluptate aut laborum cum odit fuga, enim, voluptatem veniam illum unde est nam doloremque
+                            facere ullam? Dolor?</p>
+                    </div>
+
+                </div>
+                <div class="block">
+                    <div class="front">
+                        <img src="imgs/primer-2.jpg" alt="prime2">
+                        <p>Материал : PLA</p>
+                        <p>Толшиие слоя: 100 микрон</p>
+                    </div>
+                    <div class="back">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, modi natus! Alias, est?
+                            Totam corporis quos officia vero blanditiis ipsum? Rem nesciunt ex eos tempora vitae beatae
+                            aliquam optio accusamus.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <div class="block">
+                    <div class="front">
+                        <img src="imgs/primer-3.jpg" alt="prime3">
+                        <p>Материал : PLA</p>
+                        <p>Толшиие слоя: 100 микрон</p>
+                    </div>
+                    <div class="back">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati facilis voluptas
+                            distinctio cumque consequuntur est ad vel soluta minima maxime quasi expedita veniam
+                            reiciendis, quas exercitationem.</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="front">
+                        <img src="imgs/primer-4.jpg" alt="prime4">
+                        <p>Материал : PLA</p>
+                        <p>Толшиие слоя: 100 микрон</p>
+                    </div>
+                    <div class="back">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus iure sapiente cumque deleniti
+                            doloribus totam praesentium labore ad ipsa et commodi unde ipsam, delectus officia
+                            consectetur animi esse quibusdam provident.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="footerPage2">
+                <h2>Научим печатать также!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit veritatis iste nam possimus
+                    repudiandae.</p>
+                <button id="order2">заказать</button>
+            </div>
+        </div>
+
+    </article>
+
+    <!-- Order Window Modale -->
+
+    <aside id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="titlemodal" style="display: none">
+        <div class="modal-wrapper">
+            <section>
+                <img src="imgs/email1.svg" alt="email">
+                <h2 id="titlemodal">заказать</h2>
+                <img id="closeModal" src="imgs/close-round.svg" alt="close">
+            </section>
+            <form>
+                <div>
+                    <img src="imgs/man.svg" alt="man">
+                    <input type="text" placeholder="Введите Ваше имя">
+                </div>
+                <div>
+                    <img src="imgs/telephone.svg" alt="phone">
+                    <input type="text" placeholder="Номер телефона">
+                </div>
+                <div>
+                    <img src="imgs/mail.svg" alt="mail">
+                    <input type="email" placeholder="Электронная почта">
+                </div>
+                <div>
+                    <img src="imgs/pismo-menu.svg" alt="message">
+                    <textarea placeholder="Электронная почта"></textarea>
+                </div>
+                <div>
+                    <label for="test">Сколько будет 3+2 = </label>
+                    <input type="number">
+                </div>
+                <div>
+                    <input type="submit" value="отправить">
+                    <input type="file" value="выберите файл">
+                </div>
+
+            </form>
+        </div>
+    </aside>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
